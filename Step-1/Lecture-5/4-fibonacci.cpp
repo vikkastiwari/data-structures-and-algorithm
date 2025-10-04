@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
 
+// runtime is 0 ms
 int getFib(int n)
 {
      if (n == 0 || n == 1) return n;
@@ -15,7 +16,8 @@ int getFib(int n)
      return v2;
 }
 
-// Recursion
+// Recursion 
+// runtime is 12 ms - LC
 int fibRec(int n)
 {
      if (n == 0 || n == 1) return n;
