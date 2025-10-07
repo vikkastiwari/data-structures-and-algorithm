@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
 
+// Time complexity: O(N^2), (where N = size of the array), for the best, worst, and average cases.
 int main() {
      int arr[] = {13,46,-24,52,20,-9};
      int size = sizeof(arr) / sizeof(arr[0]);
